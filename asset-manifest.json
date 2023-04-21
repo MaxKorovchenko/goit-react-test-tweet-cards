@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/goit-react-test-tweet-cards/static/css/main.139cda5a.css",
+    "main.js": "/goit-react-test-tweet-cards/static/js/main.2747e8c3.js",
+    "index.html": "/goit-react-test-tweet-cards/index.html",
+    "main.139cda5a.css.map": "/goit-react-test-tweet-cards/static/css/main.139cda5a.css.map",
+    "main.2747e8c3.js.map": "/goit-react-test-tweet-cards/static/js/main.2747e8c3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.139cda5a.css",
+    "static/js/main.2747e8c3.js"
+  ]
+}
