@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://MaxKorovchenko.github.io/goit-react-test-tweet-cards",
   "dependencies": {
+    "@fontsource/montserrat": "^4.5.14",
     "@reduxjs/toolkit": "^1.9.5",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -21,7 +22,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",   
+    "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint:js": "eslint src/**/*.{js,jsx}"
   },

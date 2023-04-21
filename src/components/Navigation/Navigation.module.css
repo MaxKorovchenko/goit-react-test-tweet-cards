@@ -11,12 +11,13 @@
   padding: 5px 10px;
   color: #ffffff;
   background-color: #9a9191;
-  border-radius: 4px;
+  border-radius: 8px;
   text-decoration: none;
   font-weight: 700;
   font-size: 26px;
   box-shadow: 2px 2px 5px 1px #e8ebed;
   letter-spacing: 10px;
+  text-transform: uppercase;
 
   transition: transform 250ms linear;
 }
