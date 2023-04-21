@@ -1,10 +1,16 @@
 import { NavLink } from 'react-router-dom';
 
+import styles from './Navigation.module.css';
+
 export const Navigation = () => {
   return (
-    <header>
-      <NavLink to="/">Home</NavLink>
-      <NavLink to="/tweets">Tweets</NavLink>
+    <header className={styles.header}>
+      <NavLink className={styles.link} to="/">
+        Home
+      </NavLink>
+      <NavLink className={styles.link} to="/tweets">
+        Tweets
+      </NavLink>
     </header>
   );
 };

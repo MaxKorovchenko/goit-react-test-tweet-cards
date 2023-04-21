@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2px solid grey;
+  padding: 10px;
+
+  margin-bottom: 20px;
+}
+
+.link {
+  padding: 5px 10px;
+  color: #ffffff;
+  background-color: #9a9191;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  box-shadow: 2px 2px 5px 1px #e8ebed;
+  letter-spacing: 10px;
+
+  transition: transform 250ms linear;
+}
+
+.link:hover,
+.link:focus {
+  transform: scale(1.1);
+}
+
+.link:global(.active) {
+  background-color: #fa8072;
+}
