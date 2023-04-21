@@ -1,13 +1,17 @@
 {
   "files": {
     "main.css": "/goit-react-test-tweet-cards/static/css/main.139cda5a.css",
-    "main.js": "/goit-react-test-tweet-cards/static/js/main.2747e8c3.js",
+    "main.js": "/goit-react-test-tweet-cards/static/js/main.b11fcbce.js",
+    "static/js/983.4c66c314.chunk.js": "/goit-react-test-tweet-cards/static/js/983.4c66c314.chunk.js",
+    "static/js/917.7bacf48b.chunk.js": "/goit-react-test-tweet-cards/static/js/917.7bacf48b.chunk.js",
     "index.html": "/goit-react-test-tweet-cards/index.html",
     "main.139cda5a.css.map": "/goit-react-test-tweet-cards/static/css/main.139cda5a.css.map",
-    "main.2747e8c3.js.map": "/goit-react-test-tweet-cards/static/js/main.2747e8c3.js.map"
+    "main.b11fcbce.js.map": "/goit-react-test-tweet-cards/static/js/main.b11fcbce.js.map",
+    "983.4c66c314.chunk.js.map": "/goit-react-test-tweet-cards/static/js/983.4c66c314.chunk.js.map",
+    "917.7bacf48b.chunk.js.map": "/goit-react-test-tweet-cards/static/js/917.7bacf48b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.139cda5a.css",
-    "static/js/main.2747e8c3.js"
+    "static/js/main.b11fcbce.js"
   ]
 }
