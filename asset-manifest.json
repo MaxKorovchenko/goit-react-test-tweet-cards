@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/goit-react-test-tweet-cards/static/css/main.471572e5.css",
-    "main.js": "/goit-react-test-tweet-cards/static/js/main.6eec6aec.js",
+    "main.js": "/goit-react-test-tweet-cards/static/js/main.49fac076.js",
     "static/js/983.5c49520b.chunk.js": "/goit-react-test-tweet-cards/static/js/983.5c49520b.chunk.js",
     "static/css/86.900dea05.chunk.css": "/goit-react-test-tweet-cards/static/css/86.900dea05.chunk.css",
-    "static/js/86.718442ef.chunk.js": "/goit-react-test-tweet-cards/static/js/86.718442ef.chunk.js",
+    "static/js/86.b089efaa.chunk.js": "/goit-react-test-tweet-cards/static/js/86.b089efaa.chunk.js",
     "static/js/533.e3e10d8c.chunk.js": "/goit-react-test-tweet-cards/static/js/533.e3e10d8c.chunk.js",
     "static/media/montserrat-all-400-normal.woff": "/goit-react-test-tweet-cards/static/media/montserrat-all-400-normal.327fab0afc997a2d9b16.woff",
     "static/media/tweets.png": "/goit-react-test-tweet-cards/static/media/tweets.032662a2a907475127d7.png",
@@ -15,14 +15,14 @@
     "static/media/montserrat-vietnamese-400-normal.woff2": "/goit-react-test-tweet-cards/static/media/montserrat-vietnamese-400-normal.8f3f4c99eb0eeb5990f1.woff2",
     "index.html": "/goit-react-test-tweet-cards/index.html",
     "main.471572e5.css.map": "/goit-react-test-tweet-cards/static/css/main.471572e5.css.map",
-    "main.6eec6aec.js.map": "/goit-react-test-tweet-cards/static/js/main.6eec6aec.js.map",
+    "main.49fac076.js.map": "/goit-react-test-tweet-cards/static/js/main.49fac076.js.map",
     "983.5c49520b.chunk.js.map": "/goit-react-test-tweet-cards/static/js/983.5c49520b.chunk.js.map",
     "86.900dea05.chunk.css.map": "/goit-react-test-tweet-cards/static/css/86.900dea05.chunk.css.map",
-    "86.718442ef.chunk.js.map": "/goit-react-test-tweet-cards/static/js/86.718442ef.chunk.js.map",
+    "86.b089efaa.chunk.js.map": "/goit-react-test-tweet-cards/static/js/86.b089efaa.chunk.js.map",
     "533.e3e10d8c.chunk.js.map": "/goit-react-test-tweet-cards/static/js/533.e3e10d8c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.471572e5.css",
-    "static/js/main.6eec6aec.js"
+    "static/js/main.49fac076.js"
   ]
 }
