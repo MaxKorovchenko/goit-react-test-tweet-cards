@@ -23,8 +23,6 @@
   position: absolute;
   left: 163.5px;
   top: 186.5px;
-
-  /* margin-bottom: 220px; */
 }
 
 .info {
@@ -79,4 +77,9 @@
   text-transform: uppercase;
 
   color: #373737;
+}
+
+.active {
+  composes: btn;
+  background-color: #5cd3a8;
 }

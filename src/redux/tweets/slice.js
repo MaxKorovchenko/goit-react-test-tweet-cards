@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { fetchUsers } from './operations';
+import { editUser, fetchUsers } from './operations';
 
 export const tweetsSlice = createSlice({
   name: 'tweets',
@@ -9,10 +9,26 @@ export const tweetsSlice = createSlice({
     error: null,
   },
   extraReducers: builder => {
-    builder.addCase(fetchUsers.fulfilled, (state, action) => {
-      state.isLoading = false;
-      state.error = null;
-      state.users = action.payload;
-    });
+    builder
+      .addCase(fetchUsers.fulfilled, (state, action) => {
+        state.isLoading = false;
+        state.error = null;
+        state.users = action.payload;
+      })
+      .addCase(editUser.fulfilled, (state, action) => {
+        state.isLoading = false;
+        state.error = null;
+        state.users = state.users.map(user => {
+          if (user.id === action.payload.id) {
+            return {
+              ...user,
+              followers: action.payload.followers,
+              isFollowing: action.payload.isFollowing,
+            };
+          }
+
+          return user;
+        });
+      });
   },
 });

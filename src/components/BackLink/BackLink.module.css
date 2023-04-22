@@ -1,0 +1,15 @@
+.link {
+  display: inline-flex;
+  align-items: flex-end;
+
+  gap: 10px;
+  margin: 20px auto;
+  padding: 10px 15px;
+  color: aliceblue;
+  font-size: 20px;
+  background-color: rgb(100, 116, 116);
+  border-radius: 6px;
+  box-shadow: 2px 2px 7px 3px grey;
+
+  text-decoration: none;
+}

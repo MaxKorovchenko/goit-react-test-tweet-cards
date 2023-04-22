@@ -3,6 +3,8 @@ import { useDispatch } from 'react-redux';
 import { fetchUsers } from '../redux/tweets/operations';
 import { UsersList } from '../components/UsersList/UsersList';
 
+import { BackLink } from '../components/BackLink/BackLink';
+
 const TweetsPage = () => {
   const dispatch = useDispatch();
 
@@ -12,6 +14,8 @@ const TweetsPage = () => {
 
   return (
     <main>
+      <BackLink to="/">Back to the Home Page</BackLink>
+
       <UsersList />
     </main>
   );

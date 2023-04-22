@@ -15,3 +15,20 @@ export const fetchUsers = createAsyncThunk(
     }
   }
 );
+
+export const editUser = createAsyncThunk(
+  'tweets/editUser',
+  async ({ id, followers, isFollowing }, { rejectWithValue }) => {
+    try {
+      const { data } = await axios.put(`/users/${id}`, {
+        followers,
+        isFollowing,
+      });
+
+      console.log(data);
+      return data;
+    } catch (e) {
+      rejectWithValue(e.message);
+    }
+  }
+);

@@ -1,10 +1,31 @@
+import { useDispatch } from 'react-redux';
 import styles from './UserCard.module.css';
+import { editUser } from '../../redux/tweets/operations';
 
-export const UserCard = ({ id, user, avatar, tweets, followers }) => {
+export const UserCard = ({
+  id,
+  user,
+  avatar,
+  tweets,
+  followers,
+  isFollowing,
+}) => {
+  const dispatch = useDispatch();
+
+  const handleUpdate = () => {
+    dispatch(
+      editUser(
+        isFollowing
+          ? { id, followers: followers - 1, isFollowing: false }
+          : { id, followers: followers + 1, isFollowing: true }
+      )
+    );
+  };
+
   return (
     <div className={styles.wrapper}>
       <img className={styles.image} src={avatar} alt={user} />
-      {/* <p>{user}</p> */}
+
       <div className={styles.info}>
         <p className={styles.stats}>{tweets.toLocaleString('en-US')} Tweets</p>
         <p className={styles.stats}>
@@ -12,8 +33,12 @@ export const UserCard = ({ id, user, avatar, tweets, followers }) => {
         </p>
       </div>
 
-      <button className={styles.btn} type="button">
-        Follow
+      <button
+        className={isFollowing ? styles.active : styles.btn}
+        type="button"
+        onClick={handleUpdate}
+      >
+        {isFollowing ? 'Following' : 'Follow'}
       </button>
     </div>
   );
