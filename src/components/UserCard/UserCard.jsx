@@ -1,6 +1,8 @@
 import { useDispatch } from 'react-redux';
-import styles from './UserCard.module.css';
+
 import { editUser } from '../../redux/tweets/operations';
+
+import styles from './UserCard.module.css';
 
 export const UserCard = ({
   id,

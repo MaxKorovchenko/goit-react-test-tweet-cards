@@ -1,4 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
+
 import { editUser, fetchUsers } from './operations';
 
 export const tweetsSlice = createSlice({

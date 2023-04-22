@@ -25,7 +25,6 @@ export const editUser = createAsyncThunk(
         isFollowing,
       });
 
-      console.log(data);
       return data;
     } catch (e) {
       rejectWithValue(e.message);
