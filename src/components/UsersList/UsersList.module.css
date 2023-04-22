@@ -5,3 +5,33 @@
 
   list-style: none;
 }
+
+.item {
+  transition: transform 250ms linear;
+}
+
+.item:hover {
+  transform: scale(1.015);
+}
+
+.btn {
+  display: block;
+  margin: 30px auto;
+  padding: 12px 24px;
+
+  background-color: #ebd8ff;
+  box-shadow: 2px 2px 7px 2px grey;
+  border-radius: 10px;
+  border: none;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+
+  text-transform: uppercase;
+  cursor: pointer;
+
+  color: #373737;
+}

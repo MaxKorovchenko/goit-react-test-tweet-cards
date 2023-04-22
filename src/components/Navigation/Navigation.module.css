@@ -8,14 +8,14 @@
 }
 
 .link {
-  padding: 5px 10px;
+  padding: 14px 28px;
   color: #ffffff;
   background-color: #9a9191;
   border-radius: 8px;
   text-decoration: none;
   font-weight: 700;
   font-size: 26px;
-  box-shadow: 2px 2px 5px 1px #e8ebed;
+  box-shadow: 2px 2px 7px 2px #8d9ca6;
   letter-spacing: 10px;
   text-transform: uppercase;
 
@@ -24,7 +24,7 @@
 
 .link:hover,
 .link:focus {
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .link:global(.active) {

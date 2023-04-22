@@ -21,14 +21,14 @@ export const UsersList = () => {
     <>
       <ul className={styles.list}>
         {usersGroup.map(({ id, ...restProps }) => (
-          <li key={id}>
+          <li className={styles.item} key={id}>
             <UserCard id={id} {...restProps} />
           </li>
         ))}
       </ul>
 
       {isHidden ? null : (
-        <button type="button" onClick={handleClick}>
+        <button className={styles.btn} type="button" onClick={handleClick}>
           Load More
         </button>
       )}

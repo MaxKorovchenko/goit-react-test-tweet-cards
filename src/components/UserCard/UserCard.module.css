@@ -75,6 +75,7 @@
   line-height: 22px;
 
   text-transform: uppercase;
+  cursor: pointer;
 
   color: #373737;
 }

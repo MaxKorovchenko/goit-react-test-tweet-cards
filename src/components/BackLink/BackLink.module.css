@@ -10,6 +10,12 @@
   background-color: rgb(100, 116, 116);
   border-radius: 6px;
   box-shadow: 2px 2px 7px 3px grey;
-
   text-decoration: none;
+
+  transition: transform 250ms linear;
+}
+
+.link:hover,
+.link:focus {
+  transform: scale(1.03);
 }
