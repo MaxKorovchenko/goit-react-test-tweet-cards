@@ -1,4 +1,5 @@
 import { createSelector } from '@reduxjs/toolkit';
+
 import { selectUsers } from '../tweets/selectors';
 
 export const selectFilter = state => state.filter;
