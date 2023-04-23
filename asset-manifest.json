@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/goit-react-test-tweet-cards/static/css/main.7b0a790a.css",
-    "main.js": "/goit-react-test-tweet-cards/static/js/main.0850432b.js",
+    "main.css": "/goit-react-test-tweet-cards/static/css/main.ddd52a65.css",
+    "main.js": "/goit-react-test-tweet-cards/static/js/main.b887b6b5.js",
     "static/css/780.9b6179c5.chunk.css": "/goit-react-test-tweet-cards/static/css/780.9b6179c5.chunk.css",
     "static/js/780.7f89fb0e.chunk.js": "/goit-react-test-tweet-cards/static/js/780.7f89fb0e.chunk.js",
     "static/css/86.e978b225.chunk.css": "/goit-react-test-tweet-cards/static/css/86.e978b225.chunk.css",
@@ -15,8 +15,8 @@
     "static/media/montserrat-cyrillic-400-normal.woff2": "/goit-react-test-tweet-cards/static/media/montserrat-cyrillic-400-normal.e5c5c19c23e370a342c8.woff2",
     "static/media/montserrat-vietnamese-400-normal.woff2": "/goit-react-test-tweet-cards/static/media/montserrat-vietnamese-400-normal.8f3f4c99eb0eeb5990f1.woff2",
     "index.html": "/goit-react-test-tweet-cards/index.html",
-    "main.7b0a790a.css.map": "/goit-react-test-tweet-cards/static/css/main.7b0a790a.css.map",
-    "main.0850432b.js.map": "/goit-react-test-tweet-cards/static/js/main.0850432b.js.map",
+    "main.ddd52a65.css.map": "/goit-react-test-tweet-cards/static/css/main.ddd52a65.css.map",
+    "main.b887b6b5.js.map": "/goit-react-test-tweet-cards/static/js/main.b887b6b5.js.map",
     "780.9b6179c5.chunk.css.map": "/goit-react-test-tweet-cards/static/css/780.9b6179c5.chunk.css.map",
     "780.7f89fb0e.chunk.js.map": "/goit-react-test-tweet-cards/static/js/780.7f89fb0e.chunk.js.map",
     "86.e978b225.chunk.css.map": "/goit-react-test-tweet-cards/static/css/86.e978b225.chunk.css.map",
@@ -24,7 +24,7 @@
     "533.e3e10d8c.chunk.js.map": "/goit-react-test-tweet-cards/static/js/533.e3e10d8c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7b0a790a.css",
-    "static/js/main.0850432b.js"
+    "static/css/main.ddd52a65.css",
+    "static/js/main.b887b6b5.js"
   ]
 }
