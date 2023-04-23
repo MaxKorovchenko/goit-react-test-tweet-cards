@@ -13,11 +13,11 @@ const TweetsPage = () => {
   }, [dispatch]);
 
   return (
-    <main>
+    <>
       <BackLink to="/">Back to the Home Page</BackLink>
 
       <UsersList />
-    </main>
+    </>
   );
 };
 

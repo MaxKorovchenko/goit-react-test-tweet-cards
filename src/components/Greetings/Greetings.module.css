@@ -1,0 +1,18 @@
+.mainTitle {
+  padding: 70px;
+  font-size: 60px;
+  text-align: center;
+  text-shadow: 1px 1px 5px rgb(2, 13, 34);
+
+  color: rgb(198, 219, 232);
+}
+
+.title {
+  padding: 50px;
+  font-size: 70px;
+  letter-spacing: 4px;
+  text-align: center;
+  text-shadow: 1px 1px 5px rgb(159, 171, 193);
+
+  color: rgb(22, 39, 169);
+}

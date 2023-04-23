@@ -7,13 +7,20 @@ import styles from './Layout.module.css';
 
 export const Layout = () => {
   return (
-    <div className={styles.container}>
-      <header>
-        <Navigation />
+    <>
+      <header className={styles.header}>
+        <div className={styles.container}>
+          <Navigation />
+        </div>
       </header>
-      <Suspense fallback={<p>Loading...</p>}>
-        <Outlet />
-      </Suspense>
-    </div>
+
+      <main className={styles.main}>
+        <Suspense fallback={<p>Loading...</p>}>
+          <div className={styles.container}>
+            <Outlet />
+          </div>
+        </Suspense>
+      </main>
+    </>
   );
 };

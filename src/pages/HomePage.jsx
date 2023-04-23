@@ -1,5 +1,11 @@
+import { Greetings } from '../components/Greetings/Greetings';
+
 const HomePage = () => {
-  return <main>Home</main>;
+  return (
+    <>
+      <Greetings />
+    </>
+  );
 };
 
 export default HomePage;
