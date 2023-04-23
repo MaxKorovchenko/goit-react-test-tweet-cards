@@ -8,12 +8,12 @@
 .link {
   padding: 14px 28px;
   color: #ffffff;
-  background-color: #9a9191;
+  background-color: #9695d0;
   border-radius: 8px;
   text-decoration: none;
   font-weight: 700;
   font-size: 26px;
-  box-shadow: 2px 2px 7px 2px #8d9ca6;
+  box-shadow: 1px 1px 7px 1px #8ba8bc;
   letter-spacing: 10px;
   text-transform: uppercase;
 
@@ -26,5 +26,5 @@
 }
 
 .link:global(.active) {
-  background-color: #fa8072;
+  background-color: #aeb23c;
 }
