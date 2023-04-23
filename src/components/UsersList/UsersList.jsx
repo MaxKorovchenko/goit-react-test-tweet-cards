@@ -1,17 +1,18 @@
 import { useSelector } from 'react-redux';
 import { useState } from 'react';
-import { selectUsers } from '../../redux/tweets/selectors';
+
+import { selectVisibleUsers } from '../../redux/filter/selectors';
 import { UserCard } from '../UserCard/UserCard';
 
 import styles from './UsersList.module.css';
 
 export const UsersList = () => {
-  const users = useSelector(selectUsers);
+  const visibleUsers = useSelector(selectVisibleUsers);
   const [page, setPage] = useState(1);
 
-  const usersGroup = users.slice(0, page * 3);
+  const usersGroup = visibleUsers.slice(0, page * 3);
 
-  const isHidden = page * 3 >= users.length;
+  const isHidden = page * 3 >= visibleUsers.length;
 
   const handleClick = () => {
     setPage(prevState => prevState + 1);

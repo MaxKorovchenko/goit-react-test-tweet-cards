@@ -1,4 +1,7 @@
 import { useEffect, useState, useRef } from 'react';
+import { useDispatch } from 'react-redux';
+
+import { filterContacts } from '../../redux/filter/slice';
 
 import styles from './Dropdown.module.css';
 
@@ -21,12 +24,19 @@ export const Dropdown = () => {
     };
   });
 
+  const dispatch = useDispatch();
+
+  const handleDispatch = filter => {
+    dispatch(filterContacts(filter));
+    setOpen(false);
+  };
+
   return (
-    <div ref={menuRef}>
+    <div ref={menuRef} className={styles.dropdown}>
       <button
         className={styles.trigger}
         onClick={() => {
-          setOpen(!open);
+          setOpen(open => !open);
         }}
       >
         Filter Tweets
@@ -34,13 +44,16 @@ export const Dropdown = () => {
 
       <div className={open ? styles.active : styles.inactive}>
         <ul>
-          <li className="dropdownItem">
+          <li className="dropdownItem" onClick={() => handleDispatch('all')}>
             <p>Show All</p>
           </li>
-          <li className="dropdownItem">
+          <li className="dropdownItem" onClick={() => handleDispatch('follow')}>
             <p>Follow</p>
           </li>
-          <li className="dropdownItem">
+          <li
+            className="dropdownItem"
+            onClick={() => handleDispatch('following')}
+          >
             <p>Following</p>
           </li>
         </ul>
