@@ -4,6 +4,7 @@ import { fetchUsers } from '../redux/tweets/operations';
 import { UsersList } from '../components/UsersList/UsersList';
 
 import { BackLink } from '../components/BackLink/BackLink';
+import { Dropdown } from '../components/Dropdown/Dropdown';
 
 const TweetsPage = () => {
   const dispatch = useDispatch();
@@ -14,7 +15,10 @@ const TweetsPage = () => {
 
   return (
     <>
-      <BackLink to="/">Back to the Home Page</BackLink>
+      <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+        <BackLink to="/">Back to the Home Page</BackLink>
+        <Dropdown />
+      </div>
 
       <UsersList />
     </>

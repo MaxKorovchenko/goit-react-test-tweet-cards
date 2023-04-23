@@ -3,13 +3,13 @@
   align-items: flex-end;
 
   gap: 10px;
-  margin: 0 auto 20px;
+  margin-bottom: 20px;
   padding: 10px 15px;
   color: aliceblue;
   font-size: 20px;
-  background-color: rgb(100, 116, 116);
+  background-color: rgb(21, 123, 123);
   border-radius: 6px;
-  box-shadow: 2px 2px 7px 3px grey;
+  box-shadow: 2px 2px 7px 3px rgb(71, 143, 181);
   text-decoration: none;
 
   transition: transform 250ms linear;
