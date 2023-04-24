@@ -10,13 +10,13 @@
   font-size: 20px;
   border: none;
   border-radius: 6px;
-  box-shadow: 2px 2px 7px 3px rgb(71, 143, 181);
+  box-shadow: 2px 2px 7px 3px #478fb5;
 
   overflow: hidden;
   cursor: pointer;
 
-  background-color: rgb(21, 123, 123);
-  color: aliceblue;
+  background-color: #157b7b;
+  color: #f0f8ff;
 
   transition: transform 250ms linear;
 }
@@ -35,7 +35,7 @@
   padding: 10px 20px;
   width: 100px;
 
-  box-shadow: 1px 1px 7px 3px rgb(71, 143, 181);
+  box-shadow: 1px 1px 7px 3px #478fb5;
 }
 
 .dropdownMenu::before {
@@ -71,11 +71,11 @@
   text-align: center;
   padding: 10px 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.4);
-  color: white;
+  color: #ffffff;
 }
 
 .dropdownMenu ul li:hover p {
-  color: rgb(188, 212, 9);
+  color: #bcd409;
   cursor: pointer;
 }
 

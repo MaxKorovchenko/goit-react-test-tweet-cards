@@ -5,11 +5,11 @@
   gap: 10px;
   margin-bottom: 20px;
   padding: 10px 15px;
-  color: aliceblue;
+  color: #f0f8ff;
   font-size: 20px;
-  background-color: rgb(21, 123, 123);
+  background-color: #157b7b;
   border-radius: 6px;
-  box-shadow: 2px 2px 7px 3px rgb(71, 143, 181);
+  box-shadow: 2px 2px 7px 3px #478fb5;
   text-decoration: none;
 
   transition: transform 250ms linear;

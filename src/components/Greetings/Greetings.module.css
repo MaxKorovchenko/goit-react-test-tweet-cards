@@ -2,9 +2,9 @@
   padding: 70px;
   font-size: 60px;
   text-align: center;
-  text-shadow: 1px 1px 5px rgb(2, 13, 34);
+  text-shadow: 1px 1px 5px #020d22;
 
-  color: rgb(198, 219, 232);
+  color: #c6dbe8;
 }
 
 .title {
@@ -12,7 +12,7 @@
   font-size: 70px;
   letter-spacing: 4px;
   text-align: center;
-  text-shadow: 1px 1px 5px rgb(159, 171, 193);
+  text-shadow: 1px 1px 5px #9fabc1;
 
-  color: rgb(22, 39, 169);
+  color: #1627a9;
 }

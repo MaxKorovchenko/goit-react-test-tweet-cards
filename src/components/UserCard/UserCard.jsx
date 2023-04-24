@@ -1,4 +1,5 @@
 import { useDispatch } from 'react-redux';
+import PropTypes from 'prop-types';
 
 import { editUser } from '../../redux/tweets/operations';
 
@@ -44,4 +45,13 @@ export const UserCard = ({
       </button>
     </div>
   );
+};
+
+UserCard.propTypes = {
+  id: PropTypes.string.isRequired,
+  user: PropTypes.string.isRequired,
+  avatar: PropTypes.string.isRequired,
+  tweets: PropTypes.number.isRequired,
+  followers: PropTypes.number.isRequired,
+  isFollowing: PropTypes.bool.isRequired,
 };

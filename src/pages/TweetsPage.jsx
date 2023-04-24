@@ -2,10 +2,10 @@ import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
 import { fetchUsers } from '../redux/tweets/operations';
+import { selectError, selectIsLoading } from '../redux/tweets/selectors';
 import { UsersList } from '../components/UsersList/UsersList';
 import { BackLink } from '../components/BackLink/BackLink';
 import { Dropdown } from '../components/Dropdown/Dropdown';
-import { selectError, selectIsLoading } from '../redux/tweets/selectors';
 import Loader from '../components/Loader/Loader';
 import { Scroll } from '../components/Scroll/Scroll';
 

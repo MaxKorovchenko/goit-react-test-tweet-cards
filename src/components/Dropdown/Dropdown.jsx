@@ -19,9 +19,7 @@ export const Dropdown = () => {
 
     document.addEventListener('mousedown', handler);
 
-    return () => {
-      document.removeEventListener('mousedown', handler);
-    };
+    return () => document.removeEventListener('mousedown', handler);
   });
 
   const dispatch = useDispatch();
