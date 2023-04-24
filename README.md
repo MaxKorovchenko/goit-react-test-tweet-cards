@@ -1,7 +1,5 @@
 # Tweet-Cards App
 
----
-
 ## Screenshots
 
 <img src='./src/images/Screenshot2.jpg' alt="home page" width=400>
