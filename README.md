@@ -4,8 +4,9 @@
 
 ## Screenshots
 
-![home page](/src/images/Screenshot2.jpg)
-![tweets page](/src/images/Screenshot1.jpg)
+<img src='./src/images/Screenshot2.jpg' alt="home page" width=400>
+
+<img src='./src/images/Screenshot1.jpg' alt="tweets page" width=400>
 
 ## Description
 
