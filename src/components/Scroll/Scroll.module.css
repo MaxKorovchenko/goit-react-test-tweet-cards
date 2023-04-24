@@ -1,0 +1,38 @@
+.toTop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: fixed;
+  bottom: 30px;
+  right: 50px;
+  z-index: 100;
+  cursor: pointer;
+
+  width: 60px;
+  height: 60px;
+  background-color: rgb(31, 58, 101);
+  border-radius: 16px;
+  box-shadow: 1px 1px 5px 5px rgb(211, 218, 225);
+
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 300ms ease-in-out, visibility 300ms ease-in-out,
+    transform 300ms ease-in-out;
+}
+.visible {
+  composes: toTop;
+  visibility: visible;
+  opacity: 1;
+}
+
+.visible:hover {
+  filter: brightness(1.15);
+  transform: scale(1.1);
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+  color: aliceblue;
+}

@@ -7,6 +7,7 @@ import { BackLink } from '../components/BackLink/BackLink';
 import { Dropdown } from '../components/Dropdown/Dropdown';
 import { selectError, selectIsLoading } from '../redux/tweets/selectors';
 import Loader from '../components/Loader/Loader';
+import { Scroll } from '../components/Scroll/Scroll';
 
 const TweetsPage = () => {
   const isLoading = useSelector(selectIsLoading);
@@ -28,6 +29,8 @@ const TweetsPage = () => {
       </div>
 
       <UsersList />
+
+      <Scroll />
     </>
   );
 };
