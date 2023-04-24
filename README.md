@@ -1,7 +1,5 @@
 # Tweet-Cards App
 
----
-
 ## Screenshots
 
 ![home page](/src/images/Screenshot2.jpg)
